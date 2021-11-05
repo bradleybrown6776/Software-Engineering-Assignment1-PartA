@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Module {
     private String name;
     private String id;
-    private ArrayList<Course> courses;
+    private ArrayList<Course> course;
     private ArrayList<Student> students;
 
     public Module(String name, String id) {
@@ -28,12 +28,12 @@ public class Module {
         this.id = id;
     }
 
-    public ArrayList<Course> getCourses() {
-        return courses;
+    public ArrayList<Course> getCourse() {
+        return course;
     }
 
-    public void setCourses(ArrayList<Course> courses) {
-        this.courses = courses;
+    public void setCourse(ArrayList<Course> course) {
+        this.course = course;
     }
 
     public ArrayList<Student> getStudents() {
