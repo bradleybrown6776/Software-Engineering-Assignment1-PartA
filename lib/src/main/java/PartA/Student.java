@@ -39,7 +39,7 @@ public class Student {
     }
 
     public String getUsername() {
-     return this.name  + "-" + this.dob;
+     return this.name  + "-" + this.age;
     }
 
     public ArrayList<Module> getModules() {
